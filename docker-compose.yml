@@ -1,0 +1,6 @@
+version: "1"
+services:
+  reto-aplazo:
+    build: .
+    ports:
+      - "8080:8080"
